@@ -6,7 +6,7 @@ const libraryName = pkg.name;
 module.exports = {
   entry: path.join(__dirname, "./src/index.js"),
   output: {
-    path: path.join(__dirname, "./dist"),
+    path: path.resolve(__dirname, 'dist'),
     filename: "index.js",
     library: libraryName,
     libraryTarget: "umd",
