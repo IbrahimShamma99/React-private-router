@@ -1,6 +1,6 @@
 {
-  "name": "React-private-router",
-  "version": "1.0.0",
+  "name": "react-private-router",
+  "version": "0.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
