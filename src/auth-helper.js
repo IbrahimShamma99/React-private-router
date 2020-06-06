@@ -1,4 +1,3 @@
-
 const auth = {
   isAuthenticated() {
     if (typeof window === "undefined") return false;

@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/IbrahimShamma99/React-private-router.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,7 +20,9 @@
     "url": "https://github.com/IbrahimShamma99/React-private-router/issues"
   },
   "homepage": "https://github.com/IbrahimShamma99/React-private-router#readme",
-  "dependencies": {
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-dom": ">=16.8.1",
     "react-router-dom": "^5.2.0"
   }
 }
