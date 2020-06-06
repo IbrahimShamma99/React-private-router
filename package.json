@@ -1,0 +1,23 @@
+{
+  "name": "React-private-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimShamma99/React-private-router.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrahimShamma99/React-private-router/issues"
+  },
+  "homepage": "https://github.com/IbrahimShamma99/React-private-router#readme",
+  "dependencies": {
+    "react-router-dom": "^5.2.0"
+  }
+}
