@@ -7,16 +7,13 @@ module.exports = {
   entry: path.join(__dirname, "./src/index.js"),
   output: {
     path: path.join(__dirname, "./dist"),
-    filename: "myUnflappableComponent.js",
+    filename: "index.js",
     library: libraryName,
     libraryTarget: "umd",
     publicPath: "/dist/",
     umdNamedDefine: true,
   },
   plugins: [
-    new ExtractTextPlugin({
-      filename: "myUnflappableComponent.css",
-    }),
   ],
   node: {
     net: "empty",
